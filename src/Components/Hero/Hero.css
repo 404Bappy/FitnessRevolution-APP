@@ -2,3 +2,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.Hero-left {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  flex: 3;
+}
+
+.Hero-right {
+  flex: 1;
+}
