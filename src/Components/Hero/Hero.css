@@ -30,9 +30,16 @@
   justify-content: flex-start;
 }
 
+.the-best-add > span {
+  z-index: 2;
+}
+
 .the-best-add > div {
   position: absolute;
   background-color: var(--orange);
   width: 5.4rem;
   height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 1;
 }
