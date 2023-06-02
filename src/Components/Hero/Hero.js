@@ -16,8 +16,8 @@ const Hero = () => {
         {/* HERO HEADING SECTION*/}
         <div className="hero-text">
           <div>
-            <span>SHAPE</span>
-            <span> YOUR</span>
+            <span className='strokeText'>Shape</span>
+            <span> Your</span>
           </div>
           <div>
             <span>IDEAL BODY</span>
