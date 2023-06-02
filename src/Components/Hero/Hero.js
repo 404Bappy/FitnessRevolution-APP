@@ -19,6 +19,9 @@ const Hero = () => {
             <span>SHAPE</span>
             <span> YOUR</span>
           </div>
+          <div>
+            <span>IDEAL BODY</span>
+          </div>
         </div>
       </div>
       <div className="Hero-right">Right Side</div>
