@@ -29,10 +29,21 @@ const Hero = () => {
             </span>
           </div>
         </div>
-
-
-    
-
+        {/* FIGURES? */}
+        <div className="figures">
+          <div>
+            <span>+140</span>
+            <span>EXPERT COACHES</span>
+          </div>
+          <div>
+            <span>+ 978</span>
+            <span>MEMBERS JOINED</span>
+          </div>
+          <div>
+            <span>+ 50</span>
+            <span>FITNESS PROGRAMS</span>
+          </div>
+        </div>
       </div>
       <div className="Hero-right">Right Side</div>
     </div>

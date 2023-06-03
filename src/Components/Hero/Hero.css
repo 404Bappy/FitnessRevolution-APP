@@ -61,3 +61,17 @@
   letter-spacing: 1px;
   width: 80%;
 }
+
+.figures {
+  display: flex;
+  gap: 2rem;
+}
+
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.figures > div > span {
+  
+}
