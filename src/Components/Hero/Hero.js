@@ -1,5 +1,9 @@
 import React from "react";
 import Header from "../Header/Header";
+import hero_image from "../../assets/hero_image.png";
+import hero_image_back from "../../assets/hero_image_back.png";
+import Heart from "../../assets/heart.png";
+import Calories from "../../assets/calories.png";
 import "./Hero.css";
 
 const Hero = () => {
@@ -51,7 +55,15 @@ const Hero = () => {
           <buttons className="btn">Learn More</buttons>
         </div>
       </div>
-      <div className="Hero-right">Right Side</div>
+      <div className="Hero-right">
+        <button className="btn">Join Now</button>
+
+        <div className="heart-rate">
+          <img src={Heart} alt="" />
+          <span>Heart Rate</span>
+          <span>116 BPM</span>
+        </div>
+      </div>
     </div>
   );
 };
