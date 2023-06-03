@@ -16,13 +16,23 @@ const Hero = () => {
         {/* HERO HEADING SECTION*/}
         <div className="hero-text">
           <div>
-            <span className='strokeText'>Shape</span>
+            <span className="strokeText">Shape</span>
             <span> Your</span>
           </div>
           <div>
             <span>IDEAL BODY</span>
           </div>
+          <div className="span1">
+            <span>
+              In here we will help you to shape and build your ideal body and
+              live up your life to fullest
+            </span>
+          </div>
         </div>
+
+
+    
+
       </div>
       <div className="Hero-right">Right Side</div>
     </div>

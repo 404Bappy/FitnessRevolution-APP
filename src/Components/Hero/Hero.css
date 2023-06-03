@@ -55,3 +55,9 @@
   text-overflow: inherit;
 }
 
+.span1 {
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  width: 80%;
+}
