@@ -32,17 +32,23 @@ const Hero = () => {
         {/* FIGURES? */}
         <div className="figures">
           <div>
-            <span>+140</span>
-            <span>EXPERT COACHES</span>
+            <span className="spn1st">+140</span>
+            <span className="spn2nd">EXPERT COACHES</span>
           </div>
           <div>
-            <span>+ 978</span>
-            <span>MEMBERS JOINED</span>
+            <span className="spn1st">+ 978</span>
+            <span className="spn2nd">MEMBERS JOINED</span>
           </div>
           <div>
-            <span>+ 50</span>
-            <span>FITNESS PROGRAMS</span>
+            <span className="spn1st">+ 50</span>
+            <span className="spn2nd">FITNESS PROGRAMS</span>
           </div>
+        </div>
+
+        {/* BUTTONS */}
+        <div className="hero-btn">
+          <buttons className="btn">Get Started</buttons>
+          <buttons className="btn">Learn More</buttons>
         </div>
       </div>
       <div className="Hero-right">Right Side</div>
