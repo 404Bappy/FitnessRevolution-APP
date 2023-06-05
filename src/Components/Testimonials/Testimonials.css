@@ -22,3 +22,24 @@
   font-weight: bold;
   font-size: 3rem;
 }
+
+.Left-Testi > :nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.Right-Testi {
+  flex: 1;
+  position: relative;
+}
+
+.Right-Testi > img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+}
