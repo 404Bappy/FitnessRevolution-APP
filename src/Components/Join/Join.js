@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Join.css";
+import emailJs from "@emailjs/browser";
 
 const Join = () => {
+  const form = useRef();
   return (
     <div className="join" id="join-us">
       <div className="left-join">
@@ -17,7 +19,7 @@ const Join = () => {
       </div>
 
       <div className="right-join">
-        <form className="email-container" action="">
+        <form ref={form} className="email-container" action="">
           <input
             type="email"
             name="user_email"
