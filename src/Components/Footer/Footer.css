@@ -11,4 +11,17 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+
+.social-liknks {
+  display: flex;
+  gap: 4rem;
+  cursor: pointer;
+}
+
+.logo-footer > img {
+  width: 10rem;
 }
