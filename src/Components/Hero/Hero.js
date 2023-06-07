@@ -4,9 +4,12 @@ import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
+
+import { motion } from "framer-motion";
 import "./Hero.css";
 
 const Hero = () => {
+  const transition = { type: "spring", duration: 3 };
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -14,7 +17,11 @@ const Hero = () => {
         <Header />
         {/* THE BEST ADD SECTIONS */}
         <div className="the-best-add">
-          <div></div>
+          <motion.div
+            initial={{ left: "238px" }}
+            whileInView={{ left: "8px" }}
+            transition={transition}
+          ></motion.div>
           <span>The Best Fitness Club In The Town</span>
         </div>
 
