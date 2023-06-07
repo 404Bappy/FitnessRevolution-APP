@@ -15,10 +15,9 @@ const Footer = () => {
           <img src={Linkedin} alt="" />
           <img src={instaGram} alt="" />
         </div>
-      </div>
-
-      <div className="logo-footer">
-        <img src={Logo} alt="" />
+        <div className="logo-footer">
+          <img style={{ width: "10rem" }} src={Logo} alt="" />
+        </div>
       </div>
     </div>
   );

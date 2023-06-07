@@ -19,9 +19,9 @@
 .social-liknks {
   display: flex;
   gap: 4rem;
-  cursor: pointer;
 }
-
-.logo-footer > img {
-  width: 10rem;
+.social-liknks > img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
 }
