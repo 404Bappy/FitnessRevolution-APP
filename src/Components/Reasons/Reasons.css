@@ -80,3 +80,29 @@
 .partners > img {
   width: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .Reasons {
+    flex-direction: column;
+  }
+  .Reason-Left {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+
+  .Reason-Left > :nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+  }
+  .Reason-Left > :nth-child(2) {
+    width: 15rem;
+    height: 10rem;
+  }
+  .Reason-Left > :nth-child(3) {
+    width: 7rem;
+  }
+  .Reason-Left > :nth-child(4) {
+    width: 7rem;
+    height: 6rem;
+  }
+}
