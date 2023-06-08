@@ -27,12 +27,48 @@ const Header = () => {
         </div>
       ) : (
         <ul className="Header-menue">
-          <li onClick={() => setMenuOpen(false)}>
-            <Link>Home</Link>
+          <li>
+            <Link
+              onClick={() => setMenuOpen(false)}
+              activeClass="active"
+              to="header"
+              span={true}
+              smooth={true}
+            >
+              Home
+            </Link>
           </li>
-          <li onClick={() => setMenuOpen(false)}>Programs</li>
-          <li onClick={() => setMenuOpen(false)}>Why Us</li>
-          <li onClick={() => setMenuOpen(false)}>Plans</li>
+          <li>
+            <Link
+              onClick={() => setMenuOpen(false)}
+              to="programs"
+              span={true}
+              smooth={true}
+            >
+              Programs
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => setMenuOpen(false)}
+              to="Reasons"
+              span={true}
+              smooth={true}
+            >
+              Why us
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link
+              onClick={() => setMenuOpen(false)}
+              to="plans"
+              span={true}
+              smooth={true}
+            >
+              Plans
+            </Link>{" "}
+          </li>
           <li>
             <Link
               onClick={() => setMenuOpen(false)}

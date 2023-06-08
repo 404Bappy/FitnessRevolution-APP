@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
+import numberCounter from "number-counter";
 import Calories from "../../assets/calories.png";
 
 import { motion } from "framer-motion";
@@ -46,7 +47,9 @@ const Hero = () => {
         {/* FIGURES? */}
         <div className="figures">
           <div>
-            <span className="spn1st">+140</span>
+            <span className="spn1st">
+              <numberCounter end={140} start={100} delay="4" preFix="+" />
+            </span>
             <span className="spn2nd">EXPERT COACHES</span>
           </div>
           <div>
