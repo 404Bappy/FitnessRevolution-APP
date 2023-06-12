@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
-import numberCounter from "number-counter";
+import NumberCounter from "number-counter";
 import Calories from "../../assets/calories.png";
 
 import { motion } from "framer-motion";
@@ -48,16 +48,22 @@ const Hero = () => {
         <div className="figures">
           <div>
             <span className="spn1st">
-              <numberCounter end={140} start={100} delay="4" preFix="+" />
+              <NumberCounter end={140} start={100} delay="4" preFix="+" />
             </span>
             <span className="spn2nd">EXPERT COACHES</span>
           </div>
           <div>
-            <span className="spn1st">+ 978</span>
+            <span className="spn1st">
+              <NumberCounter end={987} start={800} delay="4" preFix="+" />
+            </span>
+
             <span className="spn2nd">MEMBERS JOINED</span>
           </div>
           <div>
-            <span className="spn1st">+ 50</span>
+            <span className="spn1st">
+              <NumberCounter end={50} start={0} delay="4" preFix="+" />
+            </span>
+
             <span className="spn2nd">FITNESS PROGRAMS</span>
           </div>
         </div>
